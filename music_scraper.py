@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-# URL = 'https://www.musicteachers.co.uk/search?mode=submit&instrument=piano&keywords=&postcode=bn133gp&radius=48&type=1&page=2'
 DOMAIN = 'https://www.musicteachers.co.uk'
 
 ### SETUP ###
@@ -93,4 +92,3 @@ def run(url, page_num = 1, all_rows = []):
         print('your csv file is ready...')
 
 
-#run('https://www.musicteachers.co.uk/search?mode=submit&instrument=piano&keywords=&postcode=bn133gp&radius=6&type=1&page=', 1)
